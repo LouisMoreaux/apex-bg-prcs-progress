@@ -1,7 +1,7 @@
 # apex-bg-prcs-progress
 Region plug-in that allows you to monitor the background process execution in your Oracle APEX application
 
-<img alt="Screen recording showing the APEX image comparison plug-in" src="https://github.com/LouisMoreaux/apex-bg-prcs-progress/blob/main/assets/apex-bg-prcs-progress.gif?raw=true" width="300" height="300"></img>
+<img alt="Screen recording showing the APEX Background Process Progress plug-in" src="https://github.com/LouisMoreaux/apex-bg-prcs-progress/blob/main/assets/apex-bg-prcs-progress.gif?raw=true" ></img>
 
 ## Installation
 Import the file located at plug-in/region_type_plugin_apex_lmoreaux_bgd_process_progress
