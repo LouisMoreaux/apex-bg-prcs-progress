@@ -1,0 +1,36 @@
+{
+    "name": "Background Process Progress",
+    "version": "1.0",
+    "description": "Region plug-in to monitor background process execution",
+    "keywords": ["progress bar", "background execution"],
+    "homepage": "https://github.com/LouisMoreaux/apex-bg-prcs-progress",
+    "bugs": {
+      "url": "https://github.com/LouisMoreaux/apex-bg-prcs-progress/issues",
+      "email": "moreaux.louis@gmail.com"
+    },
+    "license": "MIT",
+    "commercial": "No",
+    "author": {
+      "name": "Louis Moreaux",
+      "email": "moreaux.louis@gmail.com",
+      "url": "https://lmoreaux.hashnode.dev/",
+      "twitter": "moreaux_louis",
+      "donationUrl": ""
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/LouisMoreaux/apex-bg-prcs-progress.git"
+    },
+    "oracle": {
+      "versions": ["23.2.0", "21.1.0", "19.1.0"],
+      "apex": {
+        "versions": ["24.1.0"],
+        "plugin": {
+          "internalName": "APEX.LMOREAUX.BGD_PROCESS_PROGRESS",
+          "type": "region",
+          "demo": "https://apex.oracle.com/pls/apex/r/louis/plug-ins/background-processes",
+          "previewImage": "https://apex.oracle.com/pls/apex/r/louis/plug-ins/background-processes/blob/main/assets/apex-bg-prcs-progress.gif?raw=true"
+        }
+      }
+    }
+  }
