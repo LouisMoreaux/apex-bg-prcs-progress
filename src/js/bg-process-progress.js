@@ -241,7 +241,7 @@
                             progressStatus.innerHTML = data.status_message !== undefined ? data.status_message : data.status;
                             
                             bContinue = ["EXECUTING", "SCHEDULED","ENQUEUED"].includes(data.status_code);
-                            if ( data.status_code === "SUCCESS" ) {
+                            if ( !bContinue ) {
                                 apex.event.trigger(element, "apex-bg-prcs-progress-exec-completed", data);
                                 if ( redirectOnCompletion === "Y" ) {
                                     apex.navigation.redirect(redirectLink);

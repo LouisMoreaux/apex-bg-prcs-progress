@@ -70,5 +70,11 @@ Import the file located at plug-in/region_type_plugin_apex_lmoreaux_bgd_process_
 <tr>
 </table>
 
+### Events
+An Execution Completed component event can be selected in a Dynamic Action to update the page after the completion
+
+<img alt="Screenshot showing the Execution Completed event" src="https://github.com/LouisMoreaux/apex-bg-prcs-progress/blob/main/assets/execution-completed-event.png?raw=true" ></img>
+
+
 ## Demo
 A live demo can be found at [https://apex.oracle.com/pls/apex/r/louis/plug-ins/background-processes](https://apex.oracle.com/pls/apex/r/louis/plug-ins/background-processes)
