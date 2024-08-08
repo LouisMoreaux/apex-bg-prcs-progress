@@ -29,7 +29,7 @@
           "internalName": "APEX.LMOREAUX.BGD_PROCESS_PROGRESS",
           "type": "region",
           "demo": "https://apex.oracle.com/pls/apex/r/louis/plug-ins/background-processes",
-          "previewImage": "https://apex.oracle.com/pls/apex/r/louis/plug-ins/background-processes/blob/main/assets/apex-bg-prcs-progress.gif?raw=true"
+          "previewImage": "https://github.com/LouisMoreaux/apex-bg-prcs-progress/blob/main/assets/apex-bg-prcs-progress.gif?raw=true"
         }
       }
     }
